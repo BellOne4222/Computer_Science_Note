@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a1a9b0-249d-453c-b521-b5560d8a9691" name="Changes" comment="3/15">
-      <change afterPath="$PROJECT_DIR$/src/Design_Pattern/Factory_Pattern.java" afterDir="false" />
+    <list default="true" id="f6a1a9b0-249d-453c-b521-b5560d8a9691" name="Changes" comment="3/29">
+      <change afterPath="$PROJECT_DIR$/src/Design_Pattern/Strategy_Pattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678867106352</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3/29">
+      <created>1680063412867</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680063412867</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +129,7 @@
     <MESSAGE value="구문 수정" />
     <MESSAGE value="3/14" />
     <MESSAGE value="3/15" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/15" />
+    <MESSAGE value="3/29" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/29" />
   </component>
 </project>
