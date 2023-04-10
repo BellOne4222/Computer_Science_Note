@@ -14,7 +14,7 @@ interface Observer {
     public void update();
 }
 
-class Topic implements Subject {
+class Topic implements Subject { // topic은 주체이자 객체, subject interface를 구현했다.
     private List<Observer> observers;
     private String message;
 
@@ -69,7 +69,7 @@ class TopicSubscriber implements Observer {
 public class Observer_Pattern {
     public static void main(String[] args) {
         Topic topic = new Topic();
-        Observer a = new TopicSubscriber("a", topic);
+        Observer a = new TopicSubscriber("a", topic); // 옵저버 선언, 해당 이름과 어떠한 토픽의 옵저버가 될 것인지 결정
         Observer b = new TopicSubscriber("b", topic);
         Observer c = new TopicSubscriber("c", topic);
         topic.register(a);
